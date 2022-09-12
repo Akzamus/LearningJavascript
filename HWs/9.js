@@ -1,3 +1,5 @@
+"use strict";
+
 function getTimeFromMinutes(minutes) {
     if(
         typeof minutes !== "number"||
@@ -30,5 +32,3 @@ function findMaxNumber(num1, num2, num3, num4) {
     }
     return Math.max(num1, num2, num3, num4);
 }
-
-console.log(findMaxNumber(1, 5, '6', '10'));

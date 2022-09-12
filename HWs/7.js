@@ -15,7 +15,7 @@ function getMathResult(num1, num2) {
 
     let str = `${num1}`;
 
-    for(let i = 2; i <= num2; i++) {
+    for (let i = 2; i <= num2; i++) {
         str += `---${num1 * i}`;
     }
     return str;
