@@ -1,3 +1,5 @@
+"use strict";
+
 const someString = 'This is some strange string';
 
 function reverse(str) {
