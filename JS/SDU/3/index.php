@@ -5,7 +5,6 @@
     <title>Title</title>
 </head>
 <body>
-    <p>Hello world </p>
-    <script src="js/script.js"></script>
+<?php echo("Hello"); ?>
 </body>
 </html>
